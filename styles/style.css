@@ -89,7 +89,6 @@ ol {
   flex-direction: column;
   grid-area: content__details;
   align-items: stretch;
-  gap: 26px;
 }
 
 .content__list-container {
@@ -129,7 +128,7 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  max-width: 190px;
+  max-width: 194px;
   object-fit: cover;
   object-position: center;
 }
@@ -146,6 +145,7 @@ ol {
 }
 
 .title {
+  margin-bottom: 22px;
   font-family: Oswald, sans-serif;;
   font-weight: 700;
   font-size: 75px;
@@ -169,8 +169,8 @@ ol {
   overflow: hidden;
   font-family: Oswald, sans-serif;
   font-weight: 700;
-  line-height: 100%;
   font-size: 30px;
+  line-height: 102%;
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -317,5 +317,6 @@ input[type="text"]:focus-visible {
 }
 
 .content__list-item {
+  max-height: 103px;
   padding: 3px;
 }
